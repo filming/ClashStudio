@@ -13,7 +13,7 @@ def main():
 
     cs = Clash_Studio(COC_API_TOKEN)
 
-    cs.get_player_data(main_acc_tag)
+    player_data = cs.get_player_data(main_acc_tag)
 
 if __name__ == "__main__":
     main()
